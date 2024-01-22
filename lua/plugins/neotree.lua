@@ -8,6 +8,7 @@ return {
       "MunifTanjim/nui.nvim",
       "3rd/image.nvim",
     },
+    keys = {"<leader>x","<leader>gs"},
     config = function()
       require("neo-tree").setup({
         close_if_last_window = true,  -- Close Neo-tree if it is the last window left in the tab
