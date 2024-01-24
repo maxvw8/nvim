@@ -17,9 +17,9 @@ set.writebackup = false
 set.number = true
 set.relativenumber = true
 -- tabs
-set.expandtab = true    -- Use spaces instead of tabs
-set.shiftwidth = 2      -- When reading, tabs are 2 spaces
-set.softtabstop = 2     -- In insert mode, tabs are 2 spaces
+set.expandtab = true -- Use spaces instead of tabs
+set.shiftwidth = 2   -- When reading, tabs are 2 spaces
+set.softtabstop = 2  -- In insert mode, tabs are 2 spaces
 set.tabstop = 2
 set.smartindent = true
 
@@ -46,7 +46,6 @@ set.showmatch = true
 set.smartcase = true
 set.splitbelow = true
 set.splitright = true
-set.tagcase = 'followscs' -- Follow smartcase and ignorecase when doing tag search
 set.updatetime = 300
 set.wrap = true
 set.wrapmargin = 0
