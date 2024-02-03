@@ -1,12 +1,11 @@
-vim.g.mapleader = ' '
-
+vim.g.mapleader = " "
 
 -- Remove search highlight
-vim.keymap.set('n', '<Esc><Esc>', ':noh<CR>', { silent = true })
-vim.keymap.set('n', '<C-c><C-c>', ':noh<CR>', { silent = true })
+vim.keymap.set("n", "<Esc><Esc>", ":noh<CR>", { silent = true })
+vim.keymap.set("n", "<C-c><C-c>", ":noh<CR>", { silent = true })
 
 -- x does not overwrite yank buffer
-vim.keymap.set('n', 'x', '"_x', { silent = true })
+vim.keymap.set("n", "x", '"_x', { silent = true })
 
 -- move selected lines
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
@@ -31,11 +30,13 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 -- vim.keymap.set('n', '<leader>vpp', ':e ~/.config/nvim/init.lua<CR>')
 
 -- Search centers result
-vim.keymap.set('n', 'n', 'nzz')
-vim.keymap.set('n', 'N', 'Nzz')
+vim.keymap.set("n", "n", "nzz")
+vim.keymap.set("n", "N", "Nzz")
 -- Movement centers result
-vim.keymap.set('n', '<C-d>', '<C-d>zz')
-vim.keymap.set('n', '<C-u>', '<C-u>zz')
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
+vim.keymap.set("n", "<leader>=", ":Explore<CR>")
 
 -- Switch windows
 --vim.keymap.set('n', '<C-j>', '<C-w><C-j>')
